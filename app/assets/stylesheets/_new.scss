@@ -1,0 +1,64 @@
+.post-field-box{
+}
+
+.image-icon-box{
+  font-size: 40px;
+  position: absolute;
+  margin-left: 187px;
+  margin-top: 20px;
+  background: #FFF;
+
+}
+
+.post-field-box{
+  opacity: 0;
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 16px;
+
+}
+
+.t-field-box{
+  line-height: 50px;
+  border-radius: 4px;
+  margin-left: 87px;
+  width: 130%;
+}
+
+.s-field-box{
+  margin-top: 4px;
+  width: 400px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+.contents.row{
+  width: 100%;
+  text-align: center;
+  .container{
+    background: linear-gradient(25deg, rgba(225, 0, 255, 0.39), rgba(200, 97, 0, 0.503)) ,url(calor.jpg);
+    height: 500px;
+    padding-top: 200px;
+    .post-text-box{
+      font-size: 40px;
+      font-family: 'Alegreya Sans SC';
+      color: black;
+      font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN';
+
+    }
+    .post-image-all{
+      margin-left: 30%;
+      display: flex;
+      width: 30%;
+      // background: #FFF;
+      .post-image-box{
+        width: 10%;
+        display: flex;
+        position: relative;
+      }
+    }
+    .post-send-box{
+    }
+  }
+}

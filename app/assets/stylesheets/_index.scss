@@ -1,0 +1,18 @@
+*{
+  text-decoration: none;
+}
+
+.box{
+  height: 100%;
+  width: 100%;
+  .header-box{
+    height: 100px;
+  }
+  .center-box{
+    height: 600px;
+    display: flex;
+  }
+  .fotter-box{
+    height: 100px;
+  }
+}

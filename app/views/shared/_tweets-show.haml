@@ -1,0 +1,13 @@
+.t-show-main
+  .t-show-box
+    .t-all-box
+      .t-main-text
+        .t-title-text
+          ツイート詳細
+        - if user_signed_in? && current_user.id == @tweets.user_id
+          .t-delete-box
+            = link_to '削除', tweet_path(@tweets.id), method: :delete , class: 't-delete'
+      .t-image-text
+        = image_tag @tweets.image
+      .t-text-box
+        = @tweets.text

@@ -1,0 +1,55 @@
+.main-sign-up{
+  background: linear-gradient(25deg, rgba(225, 0, 255, 0.39), rgba(200, 97, 0, 0.503)) ,url(calor.jpg);
+  height: 600px;
+  width: 100%px;
+  padding-top: 100px;
+  text-align: center;
+  .small-sign-up{
+    // background-color: azure;
+    width: 500px;
+    height: 300px;
+    margin-left: 470px;
+    margin-top: 70px;
+
+    border: solid 5px black;
+    display: flex;
+    .sign-up-text{
+      // background-color: purple;
+      height: 170px;
+      width: 200px;
+      float: left;
+      font-family: 'Superclarendon';
+      font-size: 35px;
+      padding-top: 130px;
+
+    }
+
+    .sign-up-right{
+      width: 300px;
+      height: 300px;
+      float: right;
+      display: block;
+      font-family: 'Superclarendon';
+
+      .sign-up-box{
+
+      }
+      .sign-up-nickname{
+        height: 60px;
+      }
+      .sign-up-email{
+        height: 60px;
+
+      }
+      .sign-up-password{
+        height: 80px;
+      }
+      .confirmmation-box{
+        height: 60px;
+      }
+      .submit-box{
+        height: 40px;
+      }
+    }
+  }
+}

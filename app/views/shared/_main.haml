@@ -1,0 +1,16 @@
+.center-main-box
+  - @tweet.each do |empress|
+    .chat-box
+      .chat-info
+        .chat-image
+          -# = image_tag  current_user.image ,height: '30px', width: '30px',class: 'image-icon-header'
+        .name
+          = empress.user.nickname
+        .date
+          = empress.created_at
+        .chat-show
+          = link_to '詳細' , tweet_path(empress.id), method: :get, class: 'show-text'
+      .chat-text
+        = empress.text
+      .chat-image
+        = image_tag empress.image

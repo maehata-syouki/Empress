@@ -1,0 +1,14 @@
+.edit-main
+  .edit-in-main
+    = form_for @user, url: tweet_path , method: :patch do |f|
+      .e-center-box
+        .edit-show-box
+          .e-image-box
+            -# = image_tag 'cat.jpg', height: '100px', width: '100px', class: 'e-image-icon'
+            = f.file_field :image
+          .s-name-box
+            = f.text_field :nickname , class: "edit-field"
+        .edit-p-text
+          = f.text_field :explain , class: "profile-edit-field"
+        .edit-comp-btn
+          = f.submit '完了', class: 'complete-box'

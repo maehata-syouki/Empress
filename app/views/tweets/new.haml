@@ -1,0 +1,16 @@
+= render "shared/header"
+.contents.row
+  .container
+    = form_for @tweet do |f|
+      .post-text-box
+        投稿する
+      .post-image-all
+        .post-name
+          = f.text_field :text, placeholder: 'テキストを入力してください',  class: 't-field-box'
+        .post-image-box
+          = fa_icon 'image' , class: 'image-icon-box'
+          = f.file_field :image, class: 'post-field-box'
+
+
+      .post-send-box
+        = f.submit "投稿" , class: 's-field-box'

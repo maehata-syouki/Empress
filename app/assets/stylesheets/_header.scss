@@ -1,0 +1,121 @@
+.color-small-box{
+  color: black;
+}
+
+.header-box-main{
+  background: linear-gradient(25deg, rgba(127, 0, 200, 0.479), rgba(143, 0, 88, 0.603)) ,url(master.jpg);
+  border: solid 5px black;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  // border: solid 5px black;
+  .left-small-box{
+    background-color: white;
+    width: 300px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 7px;
+    color: black;
+    border: solid 5px black;
+
+  }
+
+  .right-small-box{
+    width: 500px;
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 30px;
+    border-radius: 5px;
+    display: flex;
+    .current-user-box{
+      background-color: white;
+      height: 32px;
+      width: 100px;
+      color: black;
+      margin-top: 11px;
+      margin-left: 5px;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 20px;
+      padding: 5px 0 0 0;
+      border: solid 3px black;
+
+    }
+    .Mypage-box{
+      background-color: white;
+      height: 30px;
+      width: 100px;
+      margin-top: 10px;
+      margin-left: 5px;
+      border-radius: 5px;
+      padding: 8px 0 0 0;
+      text-align: center;
+      border: solid 3px black;
+
+    }
+    .log-out-box{
+      background-color: white;
+      height: 30px;
+      width: 100px;
+      margin-top: 10px;
+      margin-left: 5px;
+      border-radius: 5px;
+      padding: 8px 0 0 0;
+      text-align: center;
+      border: solid 3px black;
+
+
+    }
+    .post-box{
+      background-color: white;
+      height: 30px;
+      width: 100px;
+      margin-top: 10px;
+      margin-left: 5px;
+      border-radius: 5px;
+      padding: 8px 0 0 0;
+      text-align: center;
+      border: solid 3px black;
+
+    }
+    .log-in-box{
+      background-color: azure;
+      width: 200px;
+      height: 30px;
+      margin-top: 9px;
+      margin-left: 80px;
+      border-radius: 5px;
+      text-align: center;
+      padding: 8px 0 0 0;
+      border: solid 3px black;
+
+    }
+    .new-user-box{
+      background-color: azure;
+      width: 200px;
+      height: 30px;
+      margin-top: 9px;
+      margin-left: 10px;
+      border-radius: 5px;
+      text-align: center;
+      padding: 8px 0 0 0;
+      border: solid 3px black;
+
+    }
+  }
+}
+
+.empress-box{
+  color: black;
+}
+
+.image-icon-header{
+  // margin-top: 2px;
+  border-radius: 50%;
+  // margin-left: px;
+}

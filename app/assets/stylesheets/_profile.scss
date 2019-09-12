@@ -1,0 +1,66 @@
+.edit-btn{
+  color: white;
+}
+
+
+.profile-main-box{
+  width: 100%;
+  border-bottom: solid 5px black;
+  .profile-main{
+    height: 370px;
+    background: linear-gradient(25deg, rgba(153, 0, 255, 0.26), rgba(0, 200, 43, 0.503)) ,url(kk.jpg);
+    padding-top: 30px;
+    .p-main{
+      background-color: rgba(27, 7, 20, 0.589);
+      height: 300px;
+      width: 56%;
+      margin-left: 21%;
+      border: solid 5px black;
+      border-radius: 5px;
+      .p-small-main{
+        .p-p-box{
+          display: flex;
+          .p-image{
+            .image-icon{
+              margin-top: 10px;
+              border-radius: 50%;
+              margin-left: 300px;
+            }
+          }
+          .p-name{
+            margin-top: 5%;
+            margin-left: 25px;
+            font-size: 30px;
+            color: white;
+            font-family: cursive;
+          }
+        }
+        .p-center-box{
+          margin-left: 10%;
+          color: white;
+          justify-content: space-between;
+          display: flex;
+          .profile-text{
+            font-size: 20px;
+            margin-left: 5px;
+          }
+          .prpfile-edit{
+            margin-right: 90px;
+            font-size: 20px;
+
+          }
+        }
+        .p-syoukai-box{
+          overflow: scroll;
+          color: white;
+          width: 80%;
+          height: 135px;
+          margin: auto;
+          background-color: rgba(13, 11, 156, 0.548);
+          border-radius: 5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

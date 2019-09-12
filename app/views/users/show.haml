@@ -1,0 +1,16 @@
+= render "shared/header"
+= render "shared/profile"
+.show-box
+  .show-right
+  .show-center
+    .show-small-box
+      GXさんの投稿一覧ページ
+    - @user.tweets.each do |empress|
+      .show-user
+        .show-date
+          = empress.created_at
+        .show-text
+          = empress.text
+        .show-image
+          = image_tag empress.image
+  .show-left

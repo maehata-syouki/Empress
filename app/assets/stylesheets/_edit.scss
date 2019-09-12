@@ -1,0 +1,63 @@
+.e-image-icon{
+  border-radius: 50%;
+}
+
+
+.edit-main{
+  width: 100%;
+  height: 100%;
+  .edit-in-main{
+    height: 590px;
+    background: linear-gradient(25deg, rgba(153, 0, 255, 0.212), rgba(0, 200, 117, 0.503)) ,url(gg.jpg);
+    border-right: solid 5px black;
+    border-left: solid 5px black;
+    padding-top: 100px;
+    .e-center-box{
+      height: 490px;
+      width: 80%;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.665);
+      border-radius: 5px;
+      padding-top: 20px;
+      .edit-show-box{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        margin: auto;
+        .e-image-box{
+          border-radius: 50%;
+          margin-left: 30%;
+        }
+        .s-name-box{
+          font-size: 30px;
+          color: white;
+          font-family: cursive;
+          margin-top: 3%;
+          margin-left: 25px;
+        }
+      }
+      .edit-p-text{
+        .profile-edit-field{
+          // margin: auto;
+          margin-left: 10%;
+          text-align: center;
+          margin-top: 30px;
+          overflow: scroll;
+          background: rgba(31, 45, 110, 0.527);
+          width: 80%;
+          height: 200px;
+          font-size: 20px;
+          border-radius: 5px;
+          color: white;
+        }
+      }
+      .edit-comp-btn{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+      }
+    }
+  }
+}
+

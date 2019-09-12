@@ -1,0 +1,28 @@
+= render "shared/header"
+.main-sign-up
+  .small-sign-up
+    .sign-up-box
+      .sign-up-text
+        Sign_up
+      .sign-up-right
+        = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+          = render "devise/shared/error_messages", resource: resource
+          .sign-up-nickname
+            = f.label :nickname
+            %br/
+            = f.text_field :nickname, autofocus: true, autocomplete: "nickname"
+          .sign-up-email
+            = f.label :email
+            %br/
+            = f.email_field :email, autofocus: true, autocomplete: "email"
+          .sign-up-password
+            = f.label :password
+            - if @minimum_password_length
+              (#{@minimum_password_length} characters minimum)
+              = f.password_field :password, autocomplete: "new-password"
+          .confirmmation-box
+            = f.label :password_confirmation
+            = f.password_field :password_confirmation, autocomplete: "new-password"
+          .submit-box
+            = f.submit "Sign up"
+
